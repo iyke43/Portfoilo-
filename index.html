@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/ChatGPT Image Aug 25, 2025, 11_30_45 AM.png"
+      type="image/x-icon"
+    />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+  <div class="nav-logo">
+    <p class="nav-name">Ogungbemi</p>
+    <span>.</span>
+  </div>
+
+  <!-- ✅ Corrected: id matches JS -->
+  <div class="nav-menu" id="myNavMenu">
+    <ul class="nav_menu_list">
+      <li class="nav_list">
+        <a href="#home" class="nav-link">Home</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="#about" class="nav-link">About</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="#projects" class="nav-link">Project</a>
+        <div class="circle"></div>
+      </li>
+      <li class="nav_list">
+        <a href="#contact" class="nav-link">Contact</a>
+        <div class="circle"></div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="nav-button">
+    <a href="assets/files/cv.pdf" download class="btn">
+      Download CV<i class="uil uil-file-edit-alt"></i>
+    </a>
+  </div>
+
+  <!-- ✅ Corrected: function name matches JS -->
+  <div class="nav-menu-btn">
+    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+  </div>
+</nav>
+
+      <!-- -- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Ibukunoluwa Ogungbemi</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Experienced Digital Marketing Specialist
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="#contact" class="btn blue-btn">Hire Me</a>
+                <a href="assets/Files/IBUKUNOLUWA CV.pdf" download class="btn">
+                Download CV <i class="uil uil-import"></i>
+                </a>
+            </div>
+            <div class="social_icons">
+  <div class="icon">
+    <a href="https://www.instagram.com/yourusername" target="_blank">
+      <i class="uil uil-instagram"></i>
+    </a>
+  </div>
+  <div class="icon">
+    <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+      <i class="uil uil-linkedin-alt"></i>
+    </a>
+  </div>
+  <div class="icon">
+    <a href="https://wa.me/2347015678158" target="_blank">
+      <i class="uil uil-whatsapp"></i>
+    </a>
+  </div>
+</div>
+
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/ibk.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>Hey, I’m Ibukunoluwa Ogungbemi, 
+                      I’m a digital marketer who loves helping brands tell their stories in a way that actually connects with people. 
+                      From writing content to running campaigns, I’m all about making marketing feel human and fun. I also happen to be a creative director/ director for music videos. .
+                       I’ve worked on creative projects like music videos and enjoy blending storytelling with marketing to create impact. 
+                    </p>
+
+                    <div class="about-btn">
+                     <a href="assets/Files/IBUKUNOLUWA CV.pdf" download class="btn">
+                   Download CV <i class="uil uil-import"></i>
+                </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Digital Marketing </h3>
+                    </div>
+                    <div class="skills-list">
+                      <span>Copywriting</span>
+                      <span>Content Marketing</span>
+                      <span>Email Marketing</span>
+                      <span>Affliate Marketing</span>
+                        <span>Social Media management</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+       <!-- -------------- PROJECT BOX ---------------- -->
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Completed</h3>
+                <label>2+ Finished Projects</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Clients</h3>
+                <label>5+ Happy Clients</label>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-award"></i>
+                <h3>Experience</h3>
+                <label>5+ Years in the field</label>
+            </div>
+          </div>
+       </section>
+       <!-- -------------- CONTACT BOX ---------------- -->
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i>Email: Ibukunoluwaogungbemi@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +2347015678158</p>
+                </div>
+             </div>
+          </div>
+       </section>
+    </main>
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Ibukunoluwa Ogungbemi .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+  <div class="icon">
+    <a href="https://www.instagram.com/yourusername" target="_blank">
+      <i class="uil uil-instagram"></i>
+    </a>
+  </div>
+  <div class="icon">
+    <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+      <i class="uil uil-linkedin-alt"></i>
+    </a>
+  </div>
+  <div class="icon">
+    <a href="https://wa.me/2347015678158" target="_blank">
+      <i class="uil uil-whatsapp"></i>
+    </a>
+  </div>
+</div>
+
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;"></a> - All rights reserved</p>
+        </div>
+    </footer>
+    </div>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
